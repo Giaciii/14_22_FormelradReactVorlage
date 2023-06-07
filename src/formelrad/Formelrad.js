@@ -72,7 +72,7 @@ export default function Formelrad() {
             setValues(values => ({...values, p: values.u * values.i}));
             setColors( colors=> ({...colors, r:"red", p:"red"}));
         }
-    }
+    }}
 
     return (
         <>
